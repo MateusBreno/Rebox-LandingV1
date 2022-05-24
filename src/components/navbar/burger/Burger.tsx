@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import Sidebar from '../sidebar/Sidebar';
 import { StyledBurger } from './Styles';
 
@@ -17,4 +17,4 @@ const Burger: React.FC = () => {
   );
 };
 
-export default Burger;
+export default memo(Burger);

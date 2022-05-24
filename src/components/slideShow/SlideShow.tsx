@@ -23,7 +23,7 @@ interface ContentProps {
 const Content: React.FC<ContentProps> = ({ imageUrl }) => {
   return (
     <ContentWrapper>
-      <Image src={imageUrl} />
+      <Image src={imageUrl} loading="lazy" />
       <ContentOverlay>
         <ContentOverlayCircle>
           <FontAwesomeIcon icon={faPlay} color="#fff" fontSize={30} />

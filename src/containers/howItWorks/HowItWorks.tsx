@@ -30,7 +30,7 @@ interface InfoProps {
 export const InfoItem: React.FC<InfoProps> = ({ title, desc, desc2, imgUrl }) => {
   return (
     <InfoWrapper>
-      <InfoImage src={imgUrl} />
+      <InfoImage src={imgUrl} loading="lazy" />
       <InfoTextWrapper>
         <InfoTitle>{title}</InfoTitle>
         <InfoDesc style={{ marginBottom: '1rem' }}>{desc}</InfoDesc>

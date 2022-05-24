@@ -18,7 +18,10 @@ import instagram from '../../assets/svg/instagram.svg';
 const Footer: React.FC = () => {
   return (
     <Container>
-      <Logo src="https://rebox.com.br/planos/wp-content/uploads/2020/10/logo_rebox.png" />
+      <Logo
+        src="https://rebox.com.br/planos/wp-content/uploads/2020/10/logo_rebox.png"
+        loading="lazy"
+      />
       <Top>
         <span>CNPJ: 37.667.543/0001-77</span>
         <span>

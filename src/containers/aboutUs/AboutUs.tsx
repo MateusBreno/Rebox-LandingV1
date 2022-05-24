@@ -33,24 +33,24 @@ const AboutUs: React.FC = () => {
             <ImageWrapper>
               <ImageWrapperColumn>
                 <ImageWrapper>
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3chaveiro.png" />
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3reboque.png" />
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3chaveiro.png" loading="lazy"/>
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3reboque.png" loading="lazy"/>
                 </ImageWrapper>
                 <ImageWrapper>
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3hospedagem.png" />
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3troca-de-pneu.png" />
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3hospedagem.png" loading="lazy"/>
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3troca-de-pneu.png" loading="lazy"/>
                 </ImageWrapper>
               </ImageWrapperColumn>
             </ImageWrapper>
             <ImageWrapper>
               <ImageWrapperColumn>
                 <ImageWrapper>
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3pane-eletrica.png" />
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3comb.png" />
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3pane-eletrica.png" loading="lazy"/>
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3comb.png" loading="lazy"/>
                 </ImageWrapper>
                 <ImageWrapper>
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3Carga-de-Bateria.png" />
-                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/4descontos.png" />
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/3Carga-de-Bateria.png" loading="lazy"/>
+                  <Image src="https://rebox.com.br/planos/wp-content/uploads/2022/03/4descontos.png" loading="lazy"/>
                 </ImageWrapper>
               </ImageWrapperColumn>
             </ImageWrapper>

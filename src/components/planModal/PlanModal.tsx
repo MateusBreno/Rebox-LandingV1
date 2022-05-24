@@ -167,11 +167,13 @@ const PlanModal: React.FC<Props> = ({
               src="https://rebox.com.br/planos/wp-content/uploads/2020/12/egex_meios_de_pagamento_fundo_transparente-300x34.png"
               alt=""
               style={{ marginBottom: '1rem', width: 274 }}
+              loading="lazy"
             />
             <img
               width={164}
               src="https://rebox.com.br/planos/wp-content/uploads/2020/12/rebox_site_seguro-300x76.png"
               alt=""
+              loading="lazy"
             />
           </div>
           <Footer>
