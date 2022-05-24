@@ -1,4 +1,4 @@
-import stenio from '../assets/png/stenioMenorA.png';
+import stenio from '../assets/png/stenioMenorAPB.png';
 import prova2 from '../assets/png/2menor.png';
 import prova3 from '../assets/png/3menor.png';
 import prova5 from '../assets/png/5menor.png';
