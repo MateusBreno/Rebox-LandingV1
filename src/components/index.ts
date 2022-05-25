@@ -9,7 +9,7 @@ import PrivacyPolicy from './privacyPolicy/PrivacyPolicy';
 import GeneralCondition from './generalCondition/GeneralCondition';
 import Footer from './footer/Footer';
 
-export {
+export{
   Navbar,
   Divider,
   SlideShow,

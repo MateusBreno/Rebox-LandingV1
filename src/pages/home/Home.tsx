@@ -1,18 +1,18 @@
-const AboutUs = lazy(() => import('../../containers'));
-const Differentials = lazy(() => import('../../containers'));
-const Faq = lazy(() => import('../../containers'));
-const Header = lazy(() => import('../../containers'));
-const HowItWorks = lazy(() => import('../../containers'));
-const Plans = lazy(() => import('../../containers'));
-const FloatingWhatsApp = lazy(() => import('react-floating-whatsapp'));
-const Testimonials = lazy(() => import('../../containers'));
-const ScrollToTop = lazy(() => import('react-scroll-to-top'));
 import { memo, lazy } from 'react';
 import favicon from '../../assets/favicon.ico';
 import { Container } from './Styles';
-const Footer = lazy(() => import('../../components'));
+const AboutUs = lazy(() => import('../../containers/aboutUs/AboutUs'));
+const Differentials = lazy(() => import('../../containers/differentials/Differentials'));
+const Faq = lazy(() => import('../../containers/faq/Faq'));
+const Header = lazy(() => import('../../containers/header/Header'));
+const HowItWorks = lazy(() => import('../../containers/howItWorks/HowItWorks'));
+const Plans = lazy(() => import('../../containers/plans/Plans'));
+const FloatingWhatsApp = lazy(() => import('react-floating-whatsapp'));
+const Testimonials = lazy(() => import('../../containers/testimonials/Testimonials'));
+const ScrollToTop = lazy(() => import('react-scroll-to-top'));
+const Footer = lazy(() => import('../../components/footer/Footer'));
 
-// const AvatarComponent = lazy(() => import('./AvatarComponent'));  
+// const AvatarComponent = lazy(() => import('./AvatarComponent'));
 
 const Home: React.FC = () => {
   return (

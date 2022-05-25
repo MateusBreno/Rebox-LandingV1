@@ -1,6 +1,6 @@
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState, memo } from 'react';
+import { useState} from 'react';
 import { PlanModal } from '..';
 import { Container, Desc, KnowMoreButton, Price, Title, Wrapper } from './Styles';
 
@@ -101,4 +101,4 @@ const Plan: React.FC<Props> = ({
   );
 };
 
-export default memo(Plan);
+export default Plan;

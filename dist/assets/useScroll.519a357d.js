@@ -1,0 +1,1 @@
+import{r as s}from"./index.24a0137a.js";function r(e){s.exports.useEffect(()=>{if(e.hash){const o=document.getElementById(e.hash.slice(1));if(o){const t=o.getBoundingClientRect().top+window.pageYOffset+30;window.scrollTo({top:t,behavior:"smooth"})}}else window.scrollTo({top:0,left:0,behavior:"smooth"})},[e])}export{r as u};
