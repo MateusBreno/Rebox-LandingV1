@@ -34,41 +34,41 @@ const Content: React.FC<ContentProps> = ({ imageUrl }) => {
 };
 
 const slides = [
-  {
-    key: 'T-1',
-    videoUrl: 'https://www.youtube.com/embed/IiQP7ohzdnk',
-    content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2021/10/rebox-depoimento-1.png" />
-    ),
-  },
-  {
-    key: 'T-2',
-    videoUrl: 'https://www.youtube.com/embed/R7gLKEax8Cs',
-    content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2021/10/rebox-depoimento-3.png" />
-    ),
-  },
-  {
-    key: 'T-3',
-    videoUrl: 'https://www.youtube.com/embed/TuaCLguKqF0',
-    content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/04/cliente-depoimento.png" />
-    ),
-  },
-  {
-    key: 'T-4',
-    videoUrl: 'https://www.youtube.com/embed/wL_Rp0-8j3c',
-    content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/04/Viagens-Economicas-Miniatura-do-YouTube-4.png" />
-    ),
-  },
-  {
-    key: 'T-5',
-    videoUrl: 'https://www.youtube.com/embed/jtxvt4a9_gg',
-    content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/05/Viagens-Economicas-Miniatura-do-YouTube-5.png" />
-    ),
-  },
+  // {
+  //   key: 'T-1',
+  //   videoUrl: 'https://www.youtube.com/embed/IiQP7ohzdnk',
+  //   content: (
+  //     <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2021/10/rebox-depoimento-1.png" />
+  //   ),
+  // },
+  // {
+  //   key: 'T-2',
+  //   videoUrl: 'https://www.youtube.com/embed/R7gLKEax8Cs',
+  //   content: (
+  //     <Content imageUrl={"https://rebox.com.br/planos/wp-content/uploads/2021/10/rebox-depoimento-3.png"} />
+  //   ),
+  // },
+  // {
+  //   key: 'T-3',
+  //   videoUrl: 'https://www.youtube.com/embed/TuaCLguKqF0',
+  //   content: (
+  //     <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/04/cliente-depoimento.png" />
+  //   ),
+  // },
+  // {
+  //   key: 'T-4',
+  //   videoUrl: 'https://www.youtube.com/embed/wL_Rp0-8j3c',
+  //   content: (
+  //     <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/04/Viagens-Economicas-Miniatura-do-YouTube-4.png" />
+  //   ),
+  // },
+  // {
+  //   key: 'T-5',
+  //   videoUrl: 'https://www.youtube.com/embed/jtxvt4a9_gg',
+  //   content: (
+  //     <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/05/Viagens-Economicas-Miniatura-do-YouTube-5.png" />
+  //   ),
+  // },
   {
     key: 'T-6',
     videoUrl: 'https://www.youtube.com/embed/5bpiyq4cZ44',
