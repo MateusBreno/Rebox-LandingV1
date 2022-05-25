@@ -1,18 +1,18 @@
-import FloatingWhatsApp from 'react-floating-whatsapp';
-import ScrollToTop from 'react-scroll-to-top';
-import {memo} from 'react';
-import {
-  AboutUs,
-  Differentials,
-  Faq,
-  Header,
-  HowItWorks,
-  Plans,
-  Testimonials,
-} from '../../containers';
+const AboutUs = lazy(() => import('../../containers'));
+const Differentials = lazy(() => import('../../containers'));
+const Faq = lazy(() => import('../../containers'));
+const Header = lazy(() => import('../../containers'));
+const HowItWorks = lazy(() => import('../../containers'));
+const Plans = lazy(() => import('../../containers'));
+const FloatingWhatsApp = lazy(() => import('react-floating-whatsapp'));
+const Testimonials = lazy(() => import('../../containers'));
+const ScrollToTop = lazy(() => import('react-scroll-to-top'));
+import { memo, lazy } from 'react';
 import favicon from '../../assets/favicon.ico';
 import { Container } from './Styles';
-import { Footer } from '../../components';
+const Footer = lazy(() => import('../../components'));
+
+// const AvatarComponent = lazy(() => import('./AvatarComponent'));  
 
 const Home: React.FC = () => {
   return (
