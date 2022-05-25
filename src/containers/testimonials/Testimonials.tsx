@@ -12,7 +12,7 @@ import {
   VideoOverlayCircle,
   VideoTitle,
 } from './Styles';
-import myVideo from '../../assets/video.mp4';
+import myVideo from '../../assets/videoMenor.mp4';
 
 const Testimonials: React.FC = () => {
   const location = useLocation();
