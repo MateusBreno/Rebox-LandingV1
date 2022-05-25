@@ -1,6 +1,6 @@
 import { Close } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
-import React from 'react';
+import React, { memo } from 'react';
 import { Background, Body, Container, Header } from './Styles';
 
 interface Props {
@@ -40,4 +40,4 @@ const Modal: React.FC<Props> = ({
   );
 };
 
-export default Modal;
+export default memo(Modal);

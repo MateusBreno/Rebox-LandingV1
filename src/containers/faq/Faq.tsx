@@ -6,7 +6,7 @@ import {
   faPlus,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { useTheme } from 'styled-components';
 import useMeasure from 'react-use-measure';
 import { useSpring } from 'react-spring';
@@ -176,4 +176,4 @@ const Faq: React.FC = () => {
   );
 };
 
-export default Faq;
+export default memo(Faq);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{memo} from 'react';
 import { Container } from './Styles';
 
 const GeneralCondition: React.FC = () => {
@@ -871,4 +871,4 @@ const GeneralCondition: React.FC = () => {
   );
 };
 
-export default GeneralCondition;
+export default memo(GeneralCondition);

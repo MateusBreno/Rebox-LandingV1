@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import { memo } from 'react';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import {
   faCalendarAlt,
@@ -118,4 +119,4 @@ const Differentials: React.FC = () => {
   );
 };
 
-export default Differentials;
+export default memo(Differentials);

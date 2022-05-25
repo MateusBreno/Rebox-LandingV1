@@ -1,5 +1,6 @@
 import { TextLink, Ul } from './Styles';
 import useWindowDimensions from '../../../hooks/useWindowDimensions';
+import { memo } from 'react';
 
 interface Props {
   open: boolean;
@@ -39,4 +40,4 @@ const Sidebar: React.FC<Props> = ({ open, onClick }) => {
   );
 };
 
-export default Sidebar;
+export default memo(Sidebar);

@@ -1,5 +1,5 @@
 import { Container } from './Styles';
-
+import {memo} from 'react';
 interface Props {
   isBottom?: boolean;
 }
@@ -55,4 +55,4 @@ const Divider: React.FC<Props> = ({ isBottom }) => {
   );
 };
 
-export default Divider;
+export default memo(Divider);

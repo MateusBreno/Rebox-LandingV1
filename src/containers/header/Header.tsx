@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import {memo} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -41,4 +42,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default memo(Header);

@@ -8,7 +8,7 @@ import {
   IconDefinition,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { useTheme } from 'styled-components';
 import { Plan } from '../../components';
 import {
@@ -229,4 +229,4 @@ const Plans: React.FC = () => {
   );
 };
 
-export default Plans;
+export default memo(Plans);

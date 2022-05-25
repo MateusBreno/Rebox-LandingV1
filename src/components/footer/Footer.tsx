@@ -1,5 +1,5 @@
 import { FacebookRounded } from '@mui/icons-material';
-import React from 'react';
+import React, {memo} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBlog } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -61,4 +61,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer;
+export default memo(Footer);

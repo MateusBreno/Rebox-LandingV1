@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import {memo} from 'react';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTheme } from 'styled-components';
@@ -113,4 +114,4 @@ const HowItWorks: React.FC = () => {
   );
 };
 
-export default HowItWorks;
+export default memo(HowItWorks);

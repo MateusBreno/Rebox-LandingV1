@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import { Container } from './Styles';
 
 const PrivacyPolicy: React.FC = () => {
@@ -461,4 +461,4 @@ const PrivacyPolicy: React.FC = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default memo(PrivacyPolicy);

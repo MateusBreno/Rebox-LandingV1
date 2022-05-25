@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import { Container } from './Styles';
 
 const UsageRules: React.FC = () => {
@@ -151,4 +151,4 @@ const UsageRules: React.FC = () => {
   );
 };
 
-export default UsageRules;
+export default memo(UsageRules);

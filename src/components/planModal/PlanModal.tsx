@@ -2,6 +2,7 @@
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Modal } from '..';
+import { memo } from 'react';
 import { Desc } from '../plan/Styles';
 import {
   Benefit,
@@ -189,4 +190,4 @@ const PlanModal: React.FC<Props> = ({
   );
 };
 
-export default PlanModal;
+export default memo(PlanModal);

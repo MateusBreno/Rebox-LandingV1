@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+import { memo } from 'react';
 import { useScroll } from '../../hooks/useScroll';
 import {
   Body,
@@ -62,4 +63,4 @@ const AboutUs: React.FC = () => {
   );
 };
 
-export default AboutUs;
+export default memo(AboutUs);

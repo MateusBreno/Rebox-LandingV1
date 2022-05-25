@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import Slider from 'react-slick';
 import {
   Container,
@@ -177,4 +177,4 @@ const SlideShow: React.FC = () => {
   );
 };
 
-export default SlideShow;
+export default memo(SlideShow);

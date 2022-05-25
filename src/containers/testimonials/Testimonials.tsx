@@ -1,5 +1,5 @@
 import { PauseCircleFilled, PlayCircleFilled } from '@mui/icons-material';
-import { LegacyRef, useRef, useState } from 'react';
+import { LegacyRef, useRef, useState, memo } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Divider, SlideShow } from '../../components';
 import { useScroll } from '../../hooks/useScroll';
@@ -61,4 +61,4 @@ const Testimonials: React.FC = () => {
   );
 };
 
-export default Testimonials;
+export default memo(Testimonials);

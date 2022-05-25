@@ -1,5 +1,6 @@
 import Burger from './burger/Burger';
 import { Container, Logo } from './Styles';
+import {memo} from 'react';
 
 const Navbar: React.FC = () => {
   return (
@@ -13,4 +14,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

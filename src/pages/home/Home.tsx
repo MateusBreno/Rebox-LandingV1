@@ -1,5 +1,6 @@
 import FloatingWhatsApp from 'react-floating-whatsapp';
 import ScrollToTop from 'react-scroll-to-top';
+import {memo} from 'react';
 import {
   AboutUs,
   Differentials,
@@ -40,4 +41,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default memo(Home);
