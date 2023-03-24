@@ -36,67 +36,52 @@ const Content: React.FC<ContentProps> = ({ imageUrl }) => {
 const slides = [
   {
     key: 'T-1',
-    videoUrl: 'https://www.youtube.com/embed/IiQP7ohzdnk',
+    videoUrl: 'https://youtube.com/embed/RB2WxkS411Y',
     content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2021/10/rebox-depoimento-1.png" />
+      <Content imageUrl={images.prova8} />
     ),
   },
   {
     key: 'T-2',
-    videoUrl: 'https://www.youtube.com/embed/R7gLKEax8Cs',
+    videoUrl: 'https://youtube.com/embed/BCl6rHl9JNQ',
     content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2021/10/rebox-depoimento-3.png" />
+      <Content imageUrl={images.prova1} />
     ),
   },
   {
     key: 'T-3',
-    videoUrl: 'https://www.youtube.com/embed/TuaCLguKqF0',
+    videoUrl: 'https://youtube.com/embed/8zdjca3GUag',
     content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/04/cliente-depoimento.png" />
+      <Content imageUrl={images.prova4} />
     ),
   },
   {
     key: 'T-4',
-    videoUrl: 'https://www.youtube.com/embed/wL_Rp0-8j3c',
+    videoUrl: 'https://youtube.com/embed/cB-yTyJiUnY',
     content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/04/Viagens-Economicas-Miniatura-do-YouTube-4.png" />
+      <Content imageUrl={images.prova3} />
     ),
   },
   {
     key: 'T-5',
-    videoUrl: 'https://www.youtube.com/embed/jtxvt4a9_gg',
+    videoUrl: 'https://youtube.com/embed/N5O9SXtdEio',
     content: (
-      <Content imageUrl="https://rebox.com.br/planos/wp-content/uploads/2022/05/Viagens-Economicas-Miniatura-do-YouTube-5.png" />
+      <Content imageUrl={images.prova2} />
     ),
   },
   {
     key: 'T-6',
-    videoUrl: 'https://www.youtube.com/embed/5bpiyq4cZ44',
+    videoUrl: 'https://youtube.com/embed/AELMlsNz8qg',
     content: <Content imageUrl={images.prova5} />,
   },
   {
     key: 'T-7',
-    videoUrl: 'https://www.youtube.com/embed/4XNJiO0u7V0',
-    content: <Content imageUrl={images.prova10} />,
+    videoUrl: 'https://youtube.com/embed/XDsKBgIUHrw',
+    content: <Content imageUrl={images.prova7} />,
   },
   {
     key: 'T-8',
-    videoUrl: 'https://www.youtube.com/embed/idg4CRe80-Q',
-    content: <Content imageUrl={images.prova11} />,
-  },
-  {
-    key: 'T-9',
-    videoUrl: 'https://www.youtube.com/embed/MrXFxRHq0vk',
-    content: <Content imageUrl={images.prova2} />,
-  },
-  {
-    key: 'T-10',
-    videoUrl: 'https://www.youtube.com/embed/SG_Ewk0Zuuc',
-    content: <Content imageUrl={images.prova3} />,
-  },
-  {
-    key: 'T-11',
-    videoUrl: 'https://www.youtube.com/embed/FGxiYIBi72M',
+    videoUrl: 'https://youtube.com/embed/D3nCfTAuYuM',
     content: <Content imageUrl={images.prova6} />,
   },
 ];

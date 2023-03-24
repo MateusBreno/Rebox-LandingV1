@@ -1,10 +1,12 @@
 import stenio from '../assets/png/stenioMenorA.png';
-import prova2 from '../assets/png/2menor.png';
-import prova3 from '../assets/png/3menor.png';
-import prova5 from '../assets/png/5menor.png';
-import prova6 from '../assets/png/6menor.png';
-import prova10 from '../assets/png/10menor.png';
-import prova11 from '../assets/png/11menor.png';
+import prova1 from '../assets/riodejaneiro.png';
+import prova2 from '../assets/riodejaneiro2.png';
+import prova3 from '../assets/diadema.png';
+import prova4 from '../assets/maricá.png';
+import prova5 from '../assets/queimados.png';
+import prova6 from '../assets/sao joao de meriti.png';
+import prova7 from '../assets/saopaulo.png';
+import prova8 from '../assets/cliente rj.png'
 import chaveiro from '../assets/btn-chaveiro.svg';
 import conceito1 from '../assets/Prova1.png';
 import conceito2 from '../assets/prova2.png';
@@ -21,12 +23,14 @@ import combustivel from '../assets/btn-combustivel.svg';
 
 export default {
   stenio,
+  prova1,
   prova2,
   prova3,
+  prova4,
   prova5,
   prova6,
-  prova10,
-  prova11,
+  prova7,
+  prova8,
   chaveiro,
   pneu,
   mecanico,
