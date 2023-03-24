@@ -6,7 +6,7 @@ const UsageRules: React.FC = () => {
     <Container>
       <p>
         <span style={{ fontWeight: '400' }}>
-          Os planos da rebox são disponíveis para{' '}
+          Os planos da Rebox são disponíveis para{' '}
         </span>
         <b>MOTO</b>
         <span style={{ fontWeight: '400' }}>, </span>
@@ -44,7 +44,7 @@ const UsageRules: React.FC = () => {
         </li>
       </ul>
       <p>
-        <span style={{ fontWeight: '400' }}>Valor mensal: R$24,90</span>
+        <span style={{ fontWeight: '400' }}>Valor mensal: R$29,90</span>
       </p>
       <p>
         <span style={{ fontWeight: '400' }}>Número de utilizações no ano: 06</span>
@@ -61,7 +61,7 @@ const UsageRules: React.FC = () => {
         </li>
       </ul>
       <p>
-        <span style={{ fontWeight: '400' }}>Valor mensal: R$34,90</span>
+        <span style={{ fontWeight: '400' }}>Valor mensal: R$39,90</span>
       </p>
       <p>
         <span style={{ fontWeight: '400' }}>Número de utilizações no ano: 06</span>
@@ -78,7 +78,7 @@ const UsageRules: React.FC = () => {
         </li>
       </ul>
       <p>
-        <span style={{ fontWeight: '400' }}>Valor mensal: R$35,90</span>
+        <span style={{ fontWeight: '400' }}>Valor mensal: R$39,90</span>
       </p>
       <p>
         <span style={{ fontWeight: '400' }}>Número de utilizações no ano: 12</span>
@@ -116,7 +116,7 @@ const UsageRules: React.FC = () => {
         </li>
       </ul>
       <p>
-        <span style={{ fontWeight: '400' }}>Valor mensal: R$35,90</span>
+        <span style={{ fontWeight: '400' }}>Valor mensal: R$39,90</span>
       </p>
       <p>
         <span style={{ fontWeight: '400' }}>Número de utilizações no ano: 12</span>
@@ -136,7 +136,7 @@ const UsageRules: React.FC = () => {
         </li>
       </ul>
       <p>
-        <span style={{ fontWeight: '400' }}>Valor mensal: R$24,90</span>
+        <span style={{ fontWeight: '400' }}>Valor mensal: R$29,90</span>
       </p>
       <p>
         <span style={{ fontWeight: '400' }}>Número de utilizações no ano: 04</span>
