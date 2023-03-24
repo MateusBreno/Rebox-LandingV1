@@ -72,6 +72,7 @@ const Plan: React.FC<Props> = ({
         </Title>
         <Price>{price} por mês</Price>
         <Wrapper>
+          <Desc>Aviso: Proibido para veículo quebrado</Desc>
           <Desc>{numberOfYearUtilizations} Utilizações por ano</Desc>
           <Desc style={{ fontWeight: '900' }}>Cobertura:</Desc>
           {items.map(item => (

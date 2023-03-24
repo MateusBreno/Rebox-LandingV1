@@ -178,11 +178,11 @@ const Plans: React.FC = () => {
               price="R$29,90"
               numberOfYearUtilizations="4"
               numberOfMonthUtilizations="02"
-              vehicleType="Carro de passeio"
+              vehicleType="SUV's e picapes pequenas"
               year="Até 30 anos de fabricação"
               grace="3 dias úteis após confirmação do pagamento"
               url="https://rebox.com.br/checkout?p=960c3fc7-99a7-4336-a476-e0d151d0d427&e=mk"
-              items={motorcycle}
+              items={car}
             />
           </Wrapper>
           <Wrapper className={btnIndex === MOTORCYCLE ? 'planActive' : ''}>
