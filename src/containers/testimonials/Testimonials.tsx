@@ -1,7 +1,7 @@
 import { PauseCircleFilled, PlayCircleFilled } from '@mui/icons-material';
 import { LegacyRef, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Divider, SlideShow } from '../../components';
+import { Divider, SlideShow, SlideShowTwo } from '../../components';
 import { useScroll } from '../../hooks/useScroll';
 import {
   Container,
@@ -50,6 +50,9 @@ const Testimonials: React.FC = () => {
       </Video>
       <Title>Veja o que nossos clientes falam</Title>
       <SlideShow />
+      <br />
+      <br />;
+      <SlideShowTwo/>
       <Subtitle style={{ marginTop: '5rem' }}>
         Sabe quanto esses clientes <strong>Rebox</strong> pagaram pelo guincho?
       </Subtitle>

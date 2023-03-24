@@ -1,6 +1,7 @@
 import Navbar from './navbar/Navbar';
 import Divider from './divider/Divider';
 import SlideShow from './slideShow/SlideShow';
+import SlideShowTwo from './slideShowTwo/SlideShow';
 import Plan from './plan/Plan';
 import Modal from './modal/Modal';
 import PlanModal from './planModal/PlanModal';
@@ -13,6 +14,7 @@ export {
   Navbar,
   Divider,
   SlideShow,
+  SlideShowTwo,
   Plan,
   Modal,
   PlanModal,
