@@ -65,15 +65,15 @@ const CAR = 1;
 const UTILITY = 2;
 
 const Plans: React.FC = () => {
-  const [btnIndex, setBtnIndex] = useState<number>(1);
+  const [btnIndex, setBtnIndex] = useState<number>(0);
   const buttons = [
     <MyButton
-      onClick={(): void => handleButtonClick(1)}
+      onClick={(): void => handleButtonClick(0)}
       text="CARRO DE PASSEIO"
       icon={faCar}
     />,
     <MyButton
-      onClick={(): void => handleButtonClick(0)}
+      onClick={(): void => handleButtonClick(1)}
       text="MOTO / TRICICLO"
       icon={faMotorcycle}
     />,

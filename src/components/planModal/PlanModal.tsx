@@ -119,11 +119,11 @@ const PlanModal: React.FC<Props> = ({
           <span className="headerTitle">REGRAS DE UTILIZAÇÃO:</span>
           <div style={{ textAlign: 'center' }}>
             <div className="headerDescWrapper">
-              <span className="headerLabel">Número de utilizações no ano: </span>
+              <span className="headerLabel">Utilizações no ano: </span>
               <span className="headerDesc">0{numberOfYearUtilizations}</span>
             </div>
             <div className="headerDescWrapper">
-              <span className="headerLabel">Número de utilizações no mês: </span>
+              <span className="headerLabel">Utilizações no mês: </span>
               <span className="headerDesc">{numberOfMonthUtilizations}</span>
               <span className="headerLabel"> com intervalo de 15 dias</span>
             </div>
@@ -140,7 +140,7 @@ const PlanModal: React.FC<Props> = ({
               <span className="headerDesc">{grace}</span>
             </div>
             <div className="headerDescWrapper">
-              <span className="headerLabel"> Proibido: Remoção até o segundo acionamento.</span>;
+              <span className="headerLabel"> Proibido remoção intermunicipal até o segundo acionamento.</span>
             </div>
           </div>
         </Header>

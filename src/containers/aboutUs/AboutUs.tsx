@@ -37,7 +37,7 @@ const AboutUs: React.FC = () => {
             <ImageWrapper>
               <ImageWrapperColumn>
                 <ImageWrapper>
-                  <Image src={images.reboque} loading="lazy" />;
+                  <Image src={images.reboque} loading="lazy" />
                   <Image src={images.chaveiro} loading="lazy" />
                 </ImageWrapper>
               </ImageWrapperColumn>
@@ -54,7 +54,7 @@ const AboutUs: React.FC = () => {
               <ImageWrapperColumn>
                 <ImageWrapper>
                   <Image src={images.pneu} loading="lazy" />
-                  <Image src={images.bateria} loading="lazy" />;
+                  <Image src={images.bateria} loading="lazy" />
                 </ImageWrapper>
               </ImageWrapperColumn>
             </ImageWrapper>

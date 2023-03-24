@@ -15,7 +15,7 @@ export const Title = styled.p`
 
 export const Header = styled.div`
   width: 100%;
-  height: 190px;
+  height: 195px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
