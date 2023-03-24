@@ -1,0 +1,28 @@
+{
+  "light": {
+    "colors": {
+      "primary": "#07359b",
+      "secondary": "#fff",
+      "terciary": "#f9f9f9",
+      "text": "#7a7a7a",
+      "btnGreen": "#189129",
+      "btnBlue": "#0042d5",
+      "black": "#000000"
+    },
+    "fontSizes": {
+      "extraSmall": "0.875rem",
+      "small": "1rem",
+      "mediumSmall": "1.25rem",
+      "medium": "1.5rem",
+      "large": "2.8125rem",
+      "extraLarge": "3.125rem"
+    },
+    "breakpoints": {
+      "extraLarge": "1200px",
+      "large": "980px",
+      "tablet": "768px",
+      "mobileLarge": "650px",
+      "mobile": "480px"
+    }
+  }
+}
