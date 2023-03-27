@@ -72,17 +72,17 @@ const slides = [
   {
     key: 'T-6',
   videoUrl: 'https://youtube.com/embed/XDsKBgIUHrw',
-    content: <Content imageUrl={images.prova5} />,
+    content: <Content imageUrl={images.prova6} />,
   },
   {
     key: 'T-7',
   videoUrl: 'https://youtube.com/embed/D3nCfTAuYuM',
-    content: <Content imageUrl={images.prova7} />,
+    content: <Content imageUrl={images.prova5} />,
   },
   {
     key: 'T-8',
     videoUrl: 'https://youtube.com/embed/AELMlsNz8qg',
-    content: <Content imageUrl={images.prova6} />,
+    content: <Content imageUrl={images.prova7} />,
   },
 ];
 

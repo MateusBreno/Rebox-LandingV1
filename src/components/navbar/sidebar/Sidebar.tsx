@@ -29,15 +29,16 @@ const Sidebar: React.FC<Props> = ({ open, onClick }) => {
       <TextLink href="/#planos" open={open} onClick={handleClick}>
         Planos
       </TextLink>
-      <TextLink href="https://cliente.rebox.com.br/" open={open} onClick={handleClick}>
-        Área do cliente
+      <TextLink href="/#faq" open={open} onClick={handleClick}>
+        Dúvidas frequentes
       </TextLink>
       <TextLink href="https://rebox.com.br/boleto" open={open} onClick={handleClick}>
         Boleto
       </TextLink>
-      <TextLink href="/#faq" open={open} onClick={handleClick}>
-        Dúvidas frequentes
+      <TextLink href="https://cliente.rebox.com.br/" open={open} onClick={handleClick}>
+        Área do cliente
       </TextLink>
+
     </Ul>
   );
 };
