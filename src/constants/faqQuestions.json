@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "A Rebox é uma seguradora?",
+    "desc": "Não. A <strong>Rebox</strong> é uma empresa de assistência veicular 24h e não se confunde com o seguro."
+  },
+  {
+    "id": 2,
+    "title": "O que é o plano de assistência veicular 24h?",
+    "desc": "É um plano que visa solucionar problemas emergenciais como reboque em caso de pane ou acidente; troca de pneus; chaveiro auto; socorro mecânico; pane seca (falta de combustível) dentre outros."
+  },
+  {
+    "id": 3,
+    "title": "Quais as formas de pagamento?",
+    "desc": "Os pagamentos podem ser efetuados através dos cartões de Crédito ou no boleto mensal, em forma de assinatura. No cartão de crédito, não comprometemos o limite. Apenas descontamos o valor da mensalidade. Se a forma escolhida for boleto, enviaremos os boletos mensalmente para o email cadastrado no ato da compra do plano."
+  },
+  {
+    "id": 4,
+    "title": "Receberei o boleto em minha casa?",
+    "desc": "Não! Nosso propósito é facilitar a sua vida. Por isso, o envio do boleto mensal será através de e-mail do titular, via SMS ou Whatsapp."
+  },
+  {
+    "id": 5,
+    "title": "Acabei de pagar, já posso usar?",
+    "desc": "Não. Tem uma carência de 3 (três) dias úteis após confirmação de pagamento."
+  },
+  {
+    "id": 6,
+    "title": "Quanto tempo dura o contrato?",
+    "desc": "Não. A <strong>Rebox</strong> é uma empresa de assistência veicular 24h e não se confunde com o seguro."
+  },
+  {
+    "id": 7,
+    "title": "A Rebox é uma seguradora?",
+    "desc": "Os planos da <strong>Rebox</strong> têm um ciclo de 12 meses e nesse período, cada plano oferece uma quantidade específica de acionamentos."
+  },
+  {
+    "id": 8,
+    "title": "Usei todos os acionamentos antes de completar 12 (doze) meses. Ficarei sem assistência?",
+    "desc": "Não. Basta contratar um novo plano para o mesmo veículo. Dessa forma, você ficará com 2 (dois) planos: o mais velho – até completar 12 meses – e esse novo com os acionamentos disponíveis. "
+  },
+  {
+    "id": 9,
+    "title": "Posso cancelar o plano a qualquer momento?",
+    "desc": "Sim!  Os planos da <strong>Rebox</strong> não têm fidelidade e o cliente pode cancelar a qualquer momento. Porém, caso tenha usado um dos serviços e decida cancelar, se posteriormente decidir <strong>REATIVAR</strong> o plano, antes do término do ciclo dos 12 (doze) meses, deverá pagar os meses em que o plano ficou cancelado e cumprir a carência."
+  },
+  {
+    "id": 10,
+    "title": "Cancelei meu plano. Posso reativar?",
+    "desc": "Sim! Você pode reativar 1 (uma) vez, caso o plano que você fez e cancelou não tenha completado os 12 (doze) meses. Se você reativar e cancelar posteriormente, após uma solicitação de <strong>SOCORRO</strong>, seu <strong>CPF</strong> e <strong>PLACA</strong> do veículo ficarão impossibilitados de reativar ou contratar um novo plano na Rebox."
+  },
+  {
+    "id": 11,
+    "title": "Há a necessidade de envio de documentos?",
+    "desc": "Não! Nossa plataforma é toda online e sem a necessidade de envio de documentos. Para isso, necessitamos apenas dos dados pessoais do titular, e-mail, telefone, endereço completo e informações do veículo que serão informados no ato da contratação do plano."
+  },
+  {
+    "id": 12,
+    "title": "Atrasei o pagamento, poderei acionar o SOCORRO?",
+    "desc": "Não. Caso a mensalidade esteja em atraso, infelizmente você não poderá acionar o SOCORRO. Deverá quitar a fatura em aberto e aguardar a carência, caso esteja com muitos dias de atraso."
+  },
+  {
+    "id": 13,
+    "title": "Quais são as carências por atraso de fatura?",
+    "desc": "<p>Se o cliente atrasar o pagamento por mais de 7 (sete) dias, deverá cumprir as carências abaixo, após confirmação do pagamento:</p><br/><ul><li>Atraso do pagamento até 7 (sete) dias: cumprir 03 (três) dias úteis;</li> <li>Atraso de pagamento acima de 7 (sete) dias: cumprir 07 (sete) dias.</li></ul>"
+  },
+  {
+    "id": 14,
+    "title": "A Rebox é uma seguradora?",
+    "desc": "Não. A <strong>Rebox</strong> é uma empresa de assistência veicular 24h e não se confunde com o seguro."
+  },
+  {
+    "id": 15,
+    "title": "Se a gasolina acabar, vocês levam um galão até o local onde você está parado?",
+    "desc": "<p>Não podemos levar um galão de gasolina até você, mas solucionaremos o seu problema.</p><br/> Iremos enviar um prestador para rebocar seu veículo até o posto de gasolina mais próximo. Já o custo do combustível é por conta do cliente."
+  },
+  {
+    "id": 16,
+    "title": "Quais são as cidades que a Rebox atende?",
+    "desc": "A <strong>Rebox</strong> é uma empresa que atende em todo o Brasil, 24h por sai, 7 dias por semana."
+  },
+  {
+    "id": 17,
+    "title": "Quais tipos de veículos posso associar?",
+    "desc": "Apenas carros de passeios (Leves), motos, SUVs, picapes pequenas e médias."
+  },
+  {
+    "id": 18,
+    "title": "Posso alterar o veículo na vigência do meu plano?",
+    "desc": "Sim! É permitido alterar 1 (uma) vez durante a vigência. todavia, para utilizar os serviços, esse novo veículo deve passar pelo período de carência de 3 (três) dias úteis."
+  },
+  {
+    "id": 19,
+    "title": "Como faço para solicitar ou agendar um serviço?",
+    "desc": "Basta acessar a <strong>ÁREA DO CLIENTE</strong>, através do site <strong>rebox.com.br</strong> ou através telefone <strong>0800 100 1100</strong>, além do whatsapp <strong>(11) 4003-3132</strong>, 24h por dia, 7 dias por semana."
+  },
+  {
+    "id": 20,
+    "title": "Posso cancelar um acionamento?",
+    "desc": "É possível cancelar um acionamento até 10 (dez) minutos após solicitação do <strong>SOS</strong>."
+  },
+  {
+    "id": 21,
+    "title": "Acionei um SOCORRO, quanto tempo tenho que esperar?",
+    "desc": "A <strong>Rebox</strong>  é focada na excelência de seus atendimentos. Buscamos ser o mais rápido possível, pois sabemos que seu tempo é precioso. O tempo médio que gastaremos pra chegar até você é de 45 a 60 minutos em dias e horários normais. Apenas nos horários de pico que o tempo de espera fica em torno de 90 minutos."
+  },
+  {
+    "id": 22,
+    "title": "Tenho dois veículos, preciso fazer duas assinaturas?",
+    "desc": "Sim. A assinatura é válida apenas para um veículo. Isto é, uma assinatura para cada placa. Dessa forma, para um novo veículo, deve-se contratar um novo plano."
+  },
+  {
+    "id": 23,
+    "title": "Sou o titular do plano, mas outra pessoa pode acionar um SOCORRO?",
+    "desc": "Sim. O plano é voltado para placa cadastrada. Independente do condutor, acionando à <strong>Rebox</strong>, daremos total assistência."
+  },
+  {
+    "id": 24,
+    "title": "A Rebox conserta o meu carro se eu acionar?",
+    "desc": "Não. A <strong>Rebox</strong> não realiza nenhum tipo de conserto, apenas executa os serviços de assistência."
+  },
+  {
+    "id": 25,
+    "title": "Você fornece uma bateria nova se a minha estiver descarregada?",
+    "desc": "Não. Enviamos até você um <strong>SOS</strong> que dará uma carga na bateria. Caso ele não funcione, um guincho será enviado para remover até o endereço de sua preferência."
+  },
+  {
+    "id": 26,
+    "title": "Meu pneu furou e estou sem estepe. O que acontece quando aciono a Rebox?",
+    "desc": "Enviamos um guincho para rebocar seu veículo até um endereço indicado. Caso tenha estepe, um <strong>SOS</strong> será enviado para trocar o pneu."
+  },
+  {
+    "id": 27,
+    "title": "Perdi minha chave. O plano cobre uma nova?",
+    "desc": "Não. Os planos da <strong>Rebox</strong> só cobrem o envio de chaveiro auto para abertura de porta. Os custos com fabricação ou troca de peças são de responsabilidade do cliente."
+  }
+]
