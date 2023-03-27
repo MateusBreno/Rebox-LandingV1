@@ -26,9 +26,12 @@ import {
   Separator,
   Title,
 } from './Styles';
+
 import questions from '../../constants/faqQuestions.json';
+import Manual from '../../assets/Manual do Cliente Rebox.pdf';
 import { GeneralCondition, PrivacyPolicy, UsageRules } from '../../components';
 import { useScroll } from '../../hooks/useScroll';
+
 
 interface OptionProps {
   text: string;
@@ -69,7 +72,9 @@ const Option: React.FC<OptionProps> = ({ text, handleClick }) => {
         }}
       >
         <FontAwesomeIcon className="icon" icon={faAngleRight} color={theme.colors.text} />
-        <OptionText>{text}</OptionText>
+
+        <OptionText>{text == "Manual do Cliente" ? <a href={Manual} target = '_blank'>{text}</a> :  text }</OptionText>
+
       </OptionWrapper>
     </>
   );
@@ -123,12 +128,12 @@ const Faq: React.FC = () => {
     },
     {
       key: 'id-3',
-      component: <Option text="Condições Gerais" handleClick={(): void => setIdx(2)} />,
+      component: <Option text="Manual do Cliente" handleClick={(): void => setIdx(2)} />,
     },
-    {
-      key: 'id-4',
-      component: <Option text="Regras de Uso" handleClick={(): void => setIdx(3)} />,
-    },
+    // {
+    //   key: 'id-4',
+    //   component: <Option text="Regras de Uso" handleClick={(): void => setIdx(3)} />,
+    // },
   ];
   const location = useLocation();
   useScroll(location);
@@ -163,15 +168,18 @@ const Faq: React.FC = () => {
         </CollapsedDiv>
       ) : idx === 2 ? (
         <CollapsedDiv>
-          <GeneralCondition />
+          <a href={Manual}>
+            -
+          </a>
+
         </CollapsedDiv>
-      ) : (
-        idx === 3 && (
-          <CollapsedDiv>
-            <UsageRules />
-          </CollapsedDiv>
-        )
-      )}
+      // ) : (
+      //   idx === 3 && (
+      //     <CollapsedDiv>
+      //       <UsageRules />
+      //     </CollapsedDiv>
+      //   )
+      ): null}
     </Container>
   );
 };
