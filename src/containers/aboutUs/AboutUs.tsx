@@ -38,6 +38,8 @@ const AboutUs: React.FC = () => {
               <ImageWrapperColumn>
                 <ImageWrapper>
                   <Image src={images.reboque} loading="lazy" />
+                </ImageWrapper>
+                <ImageWrapper>
                   <Image src={images.chaveiro} loading="lazy" />
                 </ImageWrapper>
               </ImageWrapperColumn>
@@ -46,6 +48,8 @@ const AboutUs: React.FC = () => {
               <ImageWrapperColumn>
                 <ImageWrapper>
                   <Image src={images.combustivel} loading="lazy" />
+                </ImageWrapper>
+                 <ImageWrapper>
                   <Image src={images.mecanico} loading="lazy" />
                 </ImageWrapper>
               </ImageWrapperColumn>
@@ -54,6 +58,8 @@ const AboutUs: React.FC = () => {
               <ImageWrapperColumn>
                 <ImageWrapper>
                   <Image src={images.pneu} loading="lazy" />
+                </ImageWrapper>
+                 <ImageWrapper>
                   <Image src={images.bateria} loading="lazy" />
                 </ImageWrapper>
               </ImageWrapperColumn>
